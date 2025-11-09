@@ -100,3 +100,34 @@ alert(Message);
 alert( null || 2 || undefined ); //2
 
 //Q16
+alert( alert(1) || 2 || alert(3) ); //1 and then 2
+
+//Q17
+alert( 1 && null && 2 ); //null
+
+
+//Q18
+alert( alert(1) && alert(2) ); //1 and then undefined
+
+//Q19
+alert( null || 2 && 3 || 4 ); // 3
+
+
+//Q20
+if (age = prompt("What is your age?", ""));
+if (age>=14 && age<=90) {
+    alert("Inclusively")
+}
+
+//Q21
+if (age = prompt("What is your age?", ""));
+if (age<14 && age>90) {
+    alert("NOT!");
+} else {
+    alert("");
+}
+
+//Q22
+if (-1 || 0) alert( 'first' ); // 0
+if (-1 && 0) alert( 'second' ); // -
+if (null || -1 && 1) alert( 'third' ); 1
