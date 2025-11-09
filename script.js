@@ -44,3 +44,15 @@ null + 1 //=1
 undefined + 1 //NaN
 " \t \n" - 2 //-2
 
+let aa = +prompt("First number?", 1); //Q8
+let bb = +prompt("Second number?", 2);
+alert(aa + bb); // 3
+
+//Q9
+5 > 4 // true
+"apple" > "pineapple" // false 
+"2" > "12" // true
+undefined == null // true
+undefined === null // false
+null == "\n0\n" // false
+null === +"\n0\n" // false
