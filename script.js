@@ -1,3 +1,5 @@
+"use script";
+
 //Q0 Create a web page and external JavaScript file to show the message "I'm JavaScript!". Open the page, ensure that the alert works.
 alert("I'm JavaScript!");
 
