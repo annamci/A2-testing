@@ -2,6 +2,8 @@
 
 alert("I'm JavaScript!"); //Q0
 
-let name = "John", admin = "name"; //Q1
+let Name = "John", admin = Name; //Q1
 alert(admin);
 
+let Nameofourplant = "Earth"; //Q2
+let Nameofcurrentvisitor = "John";
