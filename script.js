@@ -56,3 +56,47 @@ undefined == null // true
 undefined === null // false
 null == "\n0\n" // false
 null === +"\n0\n" // false
+
+//Q10 --> yes
+if ("0") {
+alert( 'Hello' );
+}
+
+//Q11
+let message = prompt("What is the official name of JavaScript?", "");
+if (message == "ECMAScript") {
+    alert("Right!");
+} else {
+    alert("You don't know?");
+}
+
+//Q12
+let value = prompt("Write a random number", "");
+if (value>0){
+    alert(1);
+} else if (value<0) {
+    alert(-1);
+} else if (value==0) {
+    alert(0);
+}
+
+//Q13
+let result = (a + b < 4) ? "Below" : "Over";
+
+//Q14
+/*Rewrite if..else using multiple ternary operators '?'.
+For readability, it's recommended to split the code into multiple lines.*/
+
+let login = prompt("What is your login?", "");
+
+let Message = (login == "Employee") ? "Hello":
+(login=="Director") ? "Greetings":
+(login=="No login") ? "":
+"";
+
+alert(Message);
+
+//Q15
+alert( null || 2 || undefined ); //2
+
+//Q16
