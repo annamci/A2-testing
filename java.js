@@ -7,3 +7,19 @@ alert(admin);
 
 let Nameofourplant = "Earth"; //Q2
 let Nameofcurrentvisitor = "John";
+
+let name = "Ilya"; //Q3
+alert( `hello ${1}` ); // hello 1
+alert( `hello ${"name"}` ); // hello name
+alert( `hello ${Name}` ); // hello John
+
+let Name1 = prompt("What is your name", ""); //Q4
+alert(Name1);
+
+let a = 1, b = 1; // Q5
+let c = ++a; 
+let d = b++; 
+alert(a); 
+alert(b); 
+alert(c); 
+alert(d); 
