@@ -1,5 +1,3 @@
-"use script";
-
 //Q0 Create a web page and external JavaScript file to show the message "I'm JavaScript!". Open the page, ensure that the alert works.
 alert("I'm JavaScript!");
 
@@ -39,34 +37,3 @@ let x = 1 + (a *= 2);
 alert( a ); // 4
 alert( x ); // 5
 
-//Q7 What are results of these expressions? **
-"" + 1 + 0 
-"" - 1 + 0 
-true + false 
-6 / "3"
-"2" * "3"
-4 + 5 + "px"
-"$" + 4 + 5
-"4" - 2
-"4px" - 2
-"  -9  " + 5
-"  -9  " - 5
-null + 1
-undefined + 1
-" \t \n" - 2
-
-//Q8 Here is some code that asks the user for two numbers and shows their sum. It works incorrectly. The output in the example below is 12 (for default prompt values). Why? Fix it. The result should be 3.
-let AA = prompt("First number?", 1);
-let BB = prompt("Second number?", 2);
-alert(a + b); // 12
-
-//Q9 What will be the result for these expressions?
-5 > 4 --> true
-"apple" > "pineapple"
-"2" > "12"
-undefined == null
-undefined === null
-null == "\n0\n"
-null === +"\n0\n"
-
-//
