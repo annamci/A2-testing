@@ -19,7 +19,10 @@ alert(Name1);
 let a = 1, b = 1; // Q5
 let c = ++a; 
 let d = b++; 
-alert(a); 
-alert(b); 
-alert(c); 
-alert(d); 
+alert(a); //2
+alert(b); //2
+alert(c); //2
+alert(d); //1
+
+let a = 2; //Q6
+let x = 1 + (a *= 2);
